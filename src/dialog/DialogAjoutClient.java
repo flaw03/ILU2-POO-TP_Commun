@@ -15,16 +15,16 @@ public class DialogAjoutClient {
 	private ControlCreerClient controlCreerClient;
 
 	public void initDialog() {
-		// Création de la présentation pour l'ajout client
+		// Cr?ation de la pr?sentation pour l'ajout client
 		presentationCreationClient = new PresentationJFrameCreationClient();
 		presentationCreationClient.setDialogue(this);
 		presentationCreationClient.setVisible(true);
-		// Création de la présentation pour le mode administrateur
+		// Cr?ation de la pr?sentation pour le mode administrateur
 		presentationFenetreModeAdministrateur = new PresentationJFrameModeAdministrateur();
 		presentationFenetreModeAdministrateur.setVisible(true);
-		// Création carnetClient
+		// Cr?ation carnetClient
 		carnetClientel = new CarnetClientele();
-		// Création controlCreerClient
+		// Cr?ation controlCreerClient
 		controlCreerClient = new ControlCreerClient(carnetClientel);
 	}
 
