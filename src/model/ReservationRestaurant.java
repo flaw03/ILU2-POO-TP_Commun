@@ -29,6 +29,6 @@ public class ReservationRestaurant extends Reservation{
 
     @Override
     public String toString() {
-        return super.toString() + " : table n°"+ getNumTable() + "pour le " + service() + "service." ;
+        return super.toString() + " : table n°"+ getNumTable() + " pour le " + service() + " service." ;
     }
 }
