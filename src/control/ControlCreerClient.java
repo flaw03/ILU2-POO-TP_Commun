@@ -1,6 +1,6 @@
 package control;
 
-import model.CarnetClientele;
+import model.calendrier.CarnetClientele;
 
 public class ControlCreerClient {
 	private CarnetClientele carnetClientel;

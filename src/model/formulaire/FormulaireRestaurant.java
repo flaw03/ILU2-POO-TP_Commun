@@ -1,4 +1,4 @@
-package formulaire;
+package model.formulaire;
 
 public class FormulaireRestaurant extends Formulaire {
 
@@ -19,4 +19,19 @@ public class FormulaireRestaurant extends Formulaire {
         super.setIdentificationEntite(numeroTable);
     }
 
+    public int getNombrePersonnes() {
+        return nbrPersonnes;
+    }
+
+    public int getNumService() {
+        return numService;
+    }
+
+    public int getJour(){
+        return super.getJour();
+    }
+
+    public int getMois(){
+        return super.getMois();
+    }
 }

@@ -1,4 +1,4 @@
-package formulaire;
+package model.formulaire;
 
 public abstract class Formulaire {
 
@@ -18,5 +18,13 @@ public abstract class Formulaire {
 
     public void setIdentificationEntite(int identificateuronEntite) {
         this.identificateuronEntite = identificateuronEntite;
+    }
+
+    public int getJour() {
+        return jour;
+    }
+
+    public int getMois() {
+        return mois;
     }
 }

@@ -3,7 +3,7 @@ package dialog;
 import java.awt.EventQueue;
 
 import control.ControlCreerClient;
-import model.CarnetClientele;
+import model.calendrier.CarnetClientele;
 import presentation.PresentationJFrameModeAdministrateur;
 import presentation.PresentationJFrameCreationClient;
 

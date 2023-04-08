@@ -1,6 +1,6 @@
-package model;
+package model.reservation;
 
-public class ReservationHotel extends Reservation{
+public class ReservationHotel extends Reservation {
 
     private int nbrLitSimple;
     private int nbrLitDouble;

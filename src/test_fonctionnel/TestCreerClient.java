@@ -2,7 +2,7 @@ package test_fonctionnel;
 
 import control.ControlCreerClient;
 import frontiere.BoundaryCreerClient;
-import model.CarnetClientele;
+import model.calendrier.CarnetClientele;
 
 public class TestCreerClient {
 	public static void main(String[] args) {

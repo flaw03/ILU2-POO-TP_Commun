@@ -1,4 +1,4 @@
-package model;
+package model.reservation;
 
 public class ReservationSpectacle extends Reservation {
 

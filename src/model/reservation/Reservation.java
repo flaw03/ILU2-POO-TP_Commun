@@ -1,4 +1,4 @@
-package model;
+package model.reservation;
 
 import java.util.Arrays;
 

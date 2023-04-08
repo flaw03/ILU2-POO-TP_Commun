@@ -1,6 +1,6 @@
-package model;
+package model.reservation;
 
-public class ReservationRestaurant extends Reservation{
+public class ReservationRestaurant extends Reservation {
 
     private int numTable;
     private int numService;
@@ -29,6 +29,6 @@ public class ReservationRestaurant extends Reservation{
 
     @Override
     public String toString() {
-        return super.toString() + " : table n°"+ getNumTable() + " pour le " + service() + " service." ;
+        return super.toString() + " : Table n°"+ getNumTable() + " pour le " + service() + " service." ;
     }
 }

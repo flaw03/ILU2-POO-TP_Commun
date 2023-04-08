@@ -4,7 +4,7 @@ import control.ControlConnecterClient;
 import control.ControlCreerClient;
 import frontiere.BoundaryConnecterClient;
 import frontiere.BoundaryCreerClient;
-import model.CarnetClientele;
+import model.calendrier.CarnetClientele;
 
 public class TestConnecterClient {
 	public static void main(String[] args) {

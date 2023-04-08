@@ -1,4 +1,4 @@
-package formulaire;
+package model.formulaire;
 
 public class FormulaireHotel extends Formulaire{
 
